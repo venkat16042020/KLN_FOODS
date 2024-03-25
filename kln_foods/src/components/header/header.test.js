@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Header from "./header";
+import Header from "./Header";
 
 describe("Header", () => {
   test("matches snapshot", () => {
