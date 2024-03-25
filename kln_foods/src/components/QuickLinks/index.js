@@ -1,1 +1,1 @@
-export { default } from "./QuickLinks";
+export { default } from "./quickLinks";

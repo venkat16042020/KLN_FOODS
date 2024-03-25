@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Documentation from "./Documentation";
+import Documentation from "./documentation";
 
 describe("Documentation", () => {
   test("matches snapshot", () => {
