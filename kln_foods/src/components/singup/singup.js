@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-
-class Singup extends Component {
-  render() {
-    return <div>Singup</div>;
-  }
+import Header from "../header/header";
+const Singup = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Singup;

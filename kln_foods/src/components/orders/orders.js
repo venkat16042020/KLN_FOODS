@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Orders extends Component {
-  render() {
-    return <div>Orders</div>;
-  }
+const Orders = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Orders;

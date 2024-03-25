@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Items extends Component {
-  render() {
-    return <div>Items</div>;
-  }
+const Items = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Items;

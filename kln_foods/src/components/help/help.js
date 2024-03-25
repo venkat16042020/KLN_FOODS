@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Help extends Component {
-  render() {
-    return <div>Help</div>;
-  }
+const Help = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Help;

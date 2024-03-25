@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class QuickLinks extends Component {
-  render() {
-    return <div>QuickLinks</div>;
-  }
+const QuickLinks = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default QuickLinks;

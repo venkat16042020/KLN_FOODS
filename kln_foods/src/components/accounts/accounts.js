@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class Accounts extends Component {
-  render() {
-    return <div>Accounts</div>;
-  }
+const Accounts = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Accounts;

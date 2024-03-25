@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Contactus extends Component {
-  render() {
-    return <div>Contactus</div>;
-  }
+const Contactus = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Contactus;

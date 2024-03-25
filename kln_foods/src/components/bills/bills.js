@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Bills extends Component {
-  render() {
-    return <div>Bills</div>;
-  }
+const Bills = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Bills;

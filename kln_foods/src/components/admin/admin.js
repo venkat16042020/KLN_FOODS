@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Admin extends Component {
-  render() {
-    return <div>Admin</div>;
-  }
+const Admin = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
-
 export default Admin;

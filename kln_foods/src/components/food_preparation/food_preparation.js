@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Food_preparation extends Component {
-  render() {
-    return <div>Food_preparation</div>;
-  }
+const Food_preparation = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Food_preparation;

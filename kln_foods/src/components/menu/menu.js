@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class Menu extends Component {
-  render() {
-    return <div>Menu</div>;
-  }
+const Menu = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default Menu;

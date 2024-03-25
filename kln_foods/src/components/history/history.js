@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header/header";
 
-class History extends Component {
-  render() {
-    return <div>History</div>;
-  }
+const History = () => {
+  return (
+    <div><Header></Header></div>
+  )
 }
 
 export default History;
