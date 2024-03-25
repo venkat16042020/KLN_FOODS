@@ -1,10 +1,10 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Kln_quickLinks from "./kln_quickLinks";
+import Libraries from "./libraries";
 
-describe("Kln_quickLinks", () => {
+describe("Libraries", () => {
   test("matches snapshot", () => {
-    const wrapper = shallow(<Kln_quickLinks />);
+    const wrapper = shallow(<Libraries />);
     expect(wrapper).toMatchSnapshot();
   });
 });
